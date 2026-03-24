@@ -19,11 +19,11 @@ BROADCAST_IP = "255.255.255.255"
 MAGIC        = "BC_NODE_V1"
 
 # ─── Constantes del bloque génesis ───────────────────────────────────────────
-GENESIS_TIMESTAMP = datetime.now(timezone.utc).isoformat()
+GENESIS_TIMESTAMP = "2024-01-01T00:00:00+00:00"
 GENESIS_NONCE     = 0
 
 # ─── Seguridad HMAC ───────────────────────────────────────────────────────────
 # Clave compartida HMAC entre nodos (cámbiala en producción)
 
 
-SHARED_SECRET = secrets.token_bytes(32)
+SHARED_SECRET = "sitec"
